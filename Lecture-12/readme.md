@@ -1,0 +1,1 @@
+CommonJS loads modules synchronously at runtime, while ES Modules load modules asynchronously and are statically analyzed before excecution.
