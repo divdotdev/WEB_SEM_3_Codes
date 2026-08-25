@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Data Profile</title>
+</head>
+<body>
+
+    <h1>Student Data Profile</h1>
+
+    <% allstudent.forEach((element) => { %>
+        <hr>
+
+        <h2>Name: <%= element.name %></h2>
+
+        <p>Student ID: <%= element.studentId %></p>
+
+        <p>Age: <%= element.age %></p>
+
+        <p>Gender: <%= element.gender %></p>
+
+        <p>Course: <%= element.course %></p>
+
+        <p>Year: <%= element.year %></p>
+
+        <p>Email: <%= element.email %></p>
+
+        <p>Phone: <%= element.phone %></p>
+
+        <p>CGPA: <%= element.cgpa %></p>
+
+    <% }) %>
+
+</body>
+</html>

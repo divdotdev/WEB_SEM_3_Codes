@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students</title>
+</head>
+<body>
+
+<h1>Students with Age Less Than 20</h1>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Course</th>
+    </tr>
+
+    <% allstudent.forEach(function(student){ %>
+        <tr>
+            <td><%= student.name %></td>
+            <td><%= student.age %></td>
+            <td><%= student.course %></td>
+        </tr>
+    <% }) %>
+
+</table>
+
+</body>
+</html>
+
